@@ -128,6 +128,6 @@ Int	            No	        x = 5; x = 10 (New object created)
 Float	        No	        y = 3.14; y = 2.71
 String	        No	        s = "hello"; s = "world"
 Tuple	        No	        my_tuple = (1, 2, 3)
-Frozenset	    No	        frozenset({1, 2, 3})
+Frozenset	    No	        frozenset({1, 2, 3})    
 Bytes	        No	        b"hello"
 '''
