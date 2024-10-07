@@ -11,7 +11,7 @@ def game(rounds):
         2 : "paper",
         3 : "sessor"
     }
-    while ((totalGames < 5) and (BotScore < 3) and (Player_Score <3)):
+    while ((totalGames < rounds) and (BotScore < 3) and (Player_Score <3)):
 
         BotPlay = Weapons[random.randint(1,3)]
         PlayerPlay = Weapons[int(input("Choice number 1 = Rock , 2 = Paper , 3 = Sessor : "))]
