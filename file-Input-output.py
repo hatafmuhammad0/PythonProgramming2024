@@ -35,6 +35,13 @@
 
 #! with statement => using with we can open and close file automatically 
 
-with open("read-file.txt") as f:
-    print(f.read())
+# with open("read-file.txt") as f:
+#     print(f.read())
+
+#! Practice :
+
+f = open("score.txt","w")
+f.write(f'Hello \n') 
+f.write("Good")
+f.close()
 
