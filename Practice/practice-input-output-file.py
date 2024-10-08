@@ -16,10 +16,24 @@
 
 #! a file contain word "donkey" many times you need to replace it with "cow"
 
-def replaceWord(oldword,newWord,fileName):
-    with open(fileName) as f:
-        content = f.read()
-        with open (fileName,"w") as w:
-            w.write(content.replace(oldword,newWord))
+# def replaceWord(oldword,newWord,fileName):
+#     with open(fileName) as f:
+#         content = f.read()
+#         with open (fileName,"w") as w:
+#             w.write(content.replace(oldword,newWord))
 
-replaceWord("cow","lion","test1.txt")
+# replaceWord("cow","lion","test1.txt")
+
+#! Write a program for a list of such words to be censored
+
+li = ["click me" , "buy now" , "click here"]
+
+def replaceWord(list,fileName):
+    for i in list:
+        with open(fileName) as f:
+            content = f.read()
+            with open (fileName,"w") as w:
+                w.write(content.replace(i,"####"))
+
+replaceWord(li,"test1.txt")
+    
