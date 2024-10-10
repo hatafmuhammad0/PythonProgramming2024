@@ -131,3 +131,19 @@ Tuple	        No	        my_tuple = (1, 2, 3)
 Frozenset	    No	        frozenset({1, 2, 3})    
 Bytes	        No	        b"hello"
 '''
+
+'''
+The Colorful Comments Extension will help you create more human-friendly comments in your code.
+With this Extension, you will be able to categorise your cody by special colour into:
+
+Red (!)
+Blue (?)
+Green (*)
+Yellow (^)
+Pink (&)
+Purple (~)
+Mustard (todo)
+Grey (//)
+Commented out Code can also be Styled to make it Clear the Code shouldn't be There.
+Any Other Comment Styles you'd like can be Specified in the Settings.
+'''
