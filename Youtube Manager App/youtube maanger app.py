@@ -33,6 +33,7 @@ def add_videos(videos):
     
 
 def update_Videos(videos):
+    list_all_videos(videos)
     index = int(input("choose which video to update from the list : "))-1
     updateData = input("Choose any one to update : name or time ? ")
     match updateData:
@@ -41,8 +42,10 @@ def update_Videos(videos):
         case "time":
             videos[index][updateData] = input("Enter updated video time : ")
     save_data_helper(videos)
+    
 
 def delete_Video(videos):
+    list_all_videos(videos)
     index = int(input("choose which video to delete from the list : "))
     videos.pop(index-1)
     save_data_helper(videos)

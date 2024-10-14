@@ -1,1 +1,4 @@
 pip : pip is used to install something in python its a package manager
+
+Package manager => virtualenv => provide virtual enviroment where basic python install
+

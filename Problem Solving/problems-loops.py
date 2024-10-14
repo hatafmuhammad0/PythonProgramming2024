@@ -20,16 +20,39 @@
 
 #! Multiplication table printer up to 10 but skip 5th iteration
 
-multiplicationNum = 3
-i =0
-while i<10:
-    i+=1
-    if i != 5:
-        print(f"{multiplicationNum} x {i} = {multiplicationNum*i}")
-    else:
-        None
-
-#! Reverse string 
+# multiplicationNum = 3
+# i =0
+# while i<10:
+#     i+=1
+#     if i == 5:
+#         continue
+#     print(f"{multiplicationNum} x {i} = {multiplicationNum*i}")
     
+
+#! Reverse string using loop:
+
+# name = "Muhammad"
+# revserName = ""
+
+# for i in range(1,len(name)+1):
+#     revserName += name[len(name)-i]
+
+# print(revserName)
+
+#! Find the First Non-Repeated Character 
+
+# input_str = "MUHAMMAD"
+
+# for i in input_str:
+#     x = input_str.count(i)
+#     if x ==1:
+#         print(f"Repeated character is {i}")
+#         break #IF WE WILL NOT BREAK IT HERE THEN IT WILL ALSO RETURN OTHER NON REPEATING CHARACTER
+
+
+
+
+
+
 
 
