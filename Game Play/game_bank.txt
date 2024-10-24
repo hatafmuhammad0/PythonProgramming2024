@@ -1,0 +1,18 @@
+[
+  {
+    "question": "What is the highest-selling video game of all time?",
+    "answer": "D",
+    "options": ["A: Fortnite", "B: Call of Duty", "C: GTA V", "D: Minecraft"]
+  },
+  {
+    "question": "What is the capital city of Australia?",
+    "answer": "C",
+    "options": ["A: Sydney", "B: Melbourne", "C: Canberra", "D: Perth"]
+  },
+  {
+    "question": "Who is the founder of SpaceX?",
+    "answer": "A",
+    "options": ["A: Elon Musk", "B: Jeff Bezos", "C: Bill Gates", "D: Mark Zuckerberg"]
+  }
+]
+
